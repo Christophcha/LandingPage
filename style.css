@@ -1,6 +1,9 @@
 *{
     box-sizing: border-box;
 }
+body{
+    margin: 0;
+}
 
 .header-section{
     background-color: #1F2937;
@@ -67,4 +70,47 @@ img{
    
    padding-right: 30px;
    
+}
+
+.info-section{
+    display: flex;
+    gap: 30px;
+    padding-bottom: 100px;
+}
+
+.info-section div{
+    border: 5px solid #3882f6;
+    flex: 1 1 auto;
+    border-radius: 10px;
+    height: 200px;
+    width: 50px;
+}
+
+.info-section .one{
+    margin-left: 400px;
+}
+.info-section .two{
+    margin-right: 400px;
+}
+h2 {
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    font-size: 28px;
+    color: #1F2937;
+}
+
+.quote-section-background{
+    background-color: #e5e7eb; 
+}
+
+.quote-section{
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    font-weight: 50;
+    margin-left: 400px;
+    margin-right: 400px;
 }
